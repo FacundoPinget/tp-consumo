@@ -49,7 +49,7 @@ async function getData(){
     $fetchAsync.innerHTML = `Error ${err.status}:${mensaje}`;
 
   }finally{
-    console.log("Este codigo se ejecuta de igual manera, independientemente del try catch");
+    console.log();
   
   }
 }
